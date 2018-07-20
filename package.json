@@ -1,0 +1,35 @@
+{
+  "name": "node-stack-log",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "LOG_ENV=debug node test/index",
+    "lint": "standard -fix"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uojo/node-stack-log"
+  },
+  "keywords": [
+    "map",
+    "deep"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uojo/node-stack-log/issues"
+  },
+  "homepage": "https://github.com/uojo/node-stack-log",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1"
+  },
+  "standard": {
+    "ignore": []
+  }
+}
